@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.head {
+    background-color: #9DE5E4;
+    /* height: 1024px; */
+    height: 850px;
+}
+
+.nav {
+    width: 100%;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+a {
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.navSubsidaryBox {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.headCenter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.headCenterLeft {
+    width: 356px;
+    height: 436px;
+    font-size: 100px;
+    font-weight: 800;
+    color: rgba(45, 46, 126, 1);
+}
+
+.headCenterBottom {
+    width: 467px;
+    height: 111px;
+    background: rgba(255, 255, 255, 1);
+    border: 5px solid rgba(45, 46, 126, 1);
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 500px;
+    background-color: aliceblue;
+    text-align: center;
+    line-height: 111px;
+}
+
+.second {
+    width: 100%;
+    height: 1184px;
+    background: #F6BBA9 url(../img/bluePink_02.png) no-repeat top;
+    background-size: 100%;
+    /* background-size: auto; */
+    /* background-origin: border-box; */
+}
+
+.secondBank {
+    width: 100%;
+    height: 172px;
+}
+.secondTop {
+    height: 90px;
+    width: 300px;
+    color: aliceblue;
+    background: #2D2E7E;
+    text-align: center;
+    font-size: 36px;
+    /* font-family:Benmo Jianzi; */
+    font-weight: 400;
+    line-height: 90px;
+    border-bottom-left-radius: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: relative;
+}
+
+.square {
+    position: absolute;
+    right: -52.5px;
+    top: -14px;
+}
+
+.fireworks {
+    margin-left: 50px;
+}
+.secondMessageBoard {
+    margin-top: 45px;
+    text-align: center;
+    display: flex;
+    /* justify-content: center; */
+    font-size: 17px;
+    text-align: center;
+
+}
+
+.secondMessageBoardleft {
+    width: 239px;
+    height: 800px;
+    background: white;
+    line-height: 800px;
+    margin-right: 16px;
+    /* background: rgba(157, 229, 228, 1); */
+}
+
+/* .secondMessageBoardleftright{
+    display: flex;
+    justify-content: space-around;
+
+} */
+.secondMessageBoardtop {
+    width: 748px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.secondMessageBoarsBox {
+    display: flex;
+    justify-content: space-around;
+    width: 68%;
+
+}
+.secondMessageBoardTopSubsidary{
+    margin-left: 7px;
+    margin-right: 7px;
+    
+}
+.secondMessageBoardTopSubsidary1 {
+    width: 239px;
+    height: 264px;
+    line-height: 264px;
+    background: white;
+    margin-bottom: 14px;
+}
+
+.secondMessageBoardTopSubsidary2 {
+    width: 239px;
+    height: 427px;
+    line-height: 427px;
+    background: white;
+    margin-bottom: 14px;
+}
+.secondMessageBoadbottom {
+    width: 748px;
+    height: 78px;
+    background: white;
+    margin-top: 22px;
+    color:#2D2E7E;
+    font-size:35px;
+   font-weight:400;
+   line-height: 78px;
+}
+.secondMessageBoardFont{
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 23px;
+    text-indent:2em;
+
+}
+#box2{
+    display: none;
+}
+.otherPageBank{
+    width: 100%;
+    height: 16px;
+}
+.otherPage
+{
+    
+    width: 100%-16px;
+    height:950px;
+    background:#9DE5E4;
+    border:8px solid rgba(45,46,126,1);
+    border-radius:10px;
+}
+.otherPageTop{
+    margin-top:25px;
+    margin-bottom: 77px;
+  width: 100%;
+    text-align: center;
+    position: relative;
+    
+}
+.otherPageTopFont1{
+    font-size:36px;
+    font-weight:500;
+    color:rgba(45,46,126,1);
+}
+.otherPageTopFont2{
+    font-size:26px;
+    font-family:PingFang SC;
+    font-weight:400;
+    color:rgba(45,46,126,1);
+}
+.ballon{
+    position: absolute;
+    right:63px;
+    top: -23px;
+}
+.otherPageCenterSubsidaryBox1{
+background:aliceblue;
+width: 80%;
+border-radius: 15px;
+margin-top: 17px;
+
+}
+.otherPageCenterSubsidaryBox2{
+    background:aliceblue;
+    width: 80%;
+    border-radius: 15px;
+    margin-left: 20%;
+    margin-top: 17px;
+}
+.ReturnPage
+{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 81px;
+    
+}
