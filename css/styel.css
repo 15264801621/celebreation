@@ -3,18 +3,72 @@
     margin: 0;
 }
 
-.head {
-    background-color: #9DE5E4;
-    /* height: 1024px; */
-    height: 850px;
+@font-face {
+    font-family: 'BenMoJianZi';
+    src: url(../font/BenMoJianZi-2.ttf);
 }
 
+@font-face {
+    font-family: 'Bold';
+    src: url(../font/PingFangBold.ttf);
+}
+
+@font-face {
+    font-family: 'Light';
+    src: url(../font/PingFangLight.ttf);
+}
+
+@font-face {
+    font-family: 'Medium';
+    src: url(../font/PingFangMedium.ttf);
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url(../font/PingFangRegular.ttf);
+}
+
+@font-face {
+    font-family: 'HEADINBPRO';
+    src: url(../font/HEADINGPRO-HEAVY.OTF);
+}
+@font-face {
+    font-family: 'BenMoJianZi';
+    src: url(../font/BenMoJianZi-2.ttf);
+}
+@font-face {
+    font-family: 'HYYOUYU';
+    src: url(../font/HYYOUYUANTIW.TTF);
+}
+.head {
+    background-color: #9DE5E4;
+    /* height: 850px; */
+}
+body{
+    cursor: url(../img/cake.png),auto !important;
+}
 .nav {
     width: 100%;
     font-size: 24px;
     display: flex;
     justify-content: center;
     font-weight: lighter;
+    position: relative;
+}
+
+.yellowDot {
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    /* overflow: hidden; */
+
+
+}
+
+.yellowDot img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 a {
@@ -25,19 +79,23 @@ a {
 .navSubsidaryBox {
     margin-left: 2em;
     margin-right: 2em;
+    font-family: Medium;
 }
 
 .headCenter {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin-top: 48px;
 }
 
 .headCenterLeft {
-    width: 356px;
+    width: 457px;
     height: 436px;
     font-size: 100px;
     font-weight: 800;
     color: rgba(45, 46, 126, 1);
+    font-family: HEADINBPRO;
+    letter-spacing: 20px;
 }
 
 .headCenterBottom {
@@ -51,20 +109,35 @@ a {
     background-color: aliceblue;
     text-align: center;
     line-height: 111px;
+    font-family: Medium;
 }
+
+.yellowDot1 {
+    position: absolute;
+    width: 100%;
+    height: 1884px;
+}
+
+.yellowDot1 img {
+    width: 100%;
+    max-width:100%;
+    max-height:100%;
+ } 
 
 .second {
     width: 100%;
-    height: 1184px;
+    /* height: 1184px; */
     background: #F6BBA9 url(../img/bluePink_02.png) no-repeat top;
     background-size: 100%;
     /* background-size: auto; */
     /* background-origin: border-box; */
 }
 
+
 .secondBank {
     width: 100%;
     height: 172px;
+    position: relative;
 }
 
 .secondTop {
@@ -96,28 +169,21 @@ a {
 
 .secondMessageBoard {
     margin-top: 45px;
-    text-align: center;
     display: flex;
-    /* justify-content: center; */
     font-size: 17px;
     text-align: center;
+    font-family:HYYOUYU;
+    color: #2D2E7E;
 
 }
-
 .secondMessageBoardleft {
     width: 239px;
     height: 800px;
     background: white;
     line-height: 800px;
     margin-right: 16px;
-    /* background: rgba(157, 229, 228, 1); */
 }
 
-/* .secondMessageBoardleftright{
-    display: flex;
-    justify-content: space-around;
-
-} */
 .secondMessageBoardtop {
     width: 748px;
     height: 700px;
@@ -156,13 +222,15 @@ a {
 
 .secondMessageBoadbottom {
     width: 748px;
-    height: 78px;
+    height: 59px;
     background: white;
     margin-top: 22px;
     color: #2D2E7E;
     font-size: 35px;
     font-weight: 400;
-    line-height: 78px;
+    line-height: 59px;
+    padding: 9px;
+    cursor: pointer;
 }
 
 .secondMessageBoardFont {
@@ -171,6 +239,7 @@ a {
     vertical-align: middle;
     line-height: 23px;
     text-indent: 2em;
+    padding: 9px;
 
 }
 
@@ -184,7 +253,6 @@ a {
 }
 
 .otherPage {
-
     width: 100%-16px;
     height: 950px;
     background: #9DE5E4;
@@ -240,6 +308,133 @@ a {
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 81px;
+    width: 120px;
+    margin-top: 10px;
+    background-color: #fff;
+    font-family: HYYOUYU;
+    color: #2D2E7E;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5%;
+    cursor: pointer;
+
 
 }
+
+.third {
+    background: #FFD35C url(../img/pinkyellow_02.jpg) no-repeat top;
+    background-size: 100%;
+    height: 800px;
+}
+
+.thirdBank {
+    width: 100%;
+    height: 223px;
+}
+
+.thirdTop {
+    display: flex;
+    justify-content: center;
+}
+
+.thirdTop1 {
+    
+    height: 90px;
+    width: 300px;
+    color: aliceblue;
+    background: #2D2E7E;
+    text-align: center;
+    font-size: 36px;
+    /* font-family:Benmo Jianzi; */
+    font-weight: 400;
+    line-height: 90px;
+    border-bottom-left-radius: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: relative;
+    margin-right: 280px;
+}
+
+.square1 {
+    position: absolute;
+    right: -52.5px;
+    top: -18.5px;
+}
+
+.thirdcenter {
+    margin-top: -145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdfireworkleft {
+    /* position: absolute; */
+    right: 10px;
+    top: 10px;
+}
+
+.thirdcenterviedo {
+    width: 600px;
+    height: 360px;
+    margin-right: 30px;
+}
+
+.thirdcenterfont {
+    font-size: 32px;
+    width: 213px;
+    height: 300px;
+    margin-left: 30px;
+    font-family: HYYOUYU;
+    color: #2D2E7E;
+
+}
+
+.message-list{
+    max-height: 700px;
+}
+
+.message-item {
+    width: 100%;
+    display: flex;
+    margin-top: 8px;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.message-bubble {
+    border: 1px solid #ddd;
+    padding: 7px 10px;
+    border-radius: 3px;
+    /* max-width: 257px; */
+    /* max-width: 1440px;
+    max-height: 100%; */
+    width: 1440px;
+    font-family: HYYOUYU;
+    color: #2D2E7E;
+    position: relative;
+}
+
+.message-item--left .message-bubble {
+    background-color: #fff;
+}
+ .message-bubble::before {
+    /* .message-item--left .message-bubble { */
+    content: '';
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    position: absolute;
+    top: 14px;
+    left: -6px;
+    transform: rotate(-45deg);
+    border-radius: 0 0 20px 0;
+}
+

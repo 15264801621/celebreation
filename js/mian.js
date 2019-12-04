@@ -11,3 +11,8 @@ function ejectOtherPagreturn(){
   document.getElementById('box2').style.display="none";
   document.getElementById('box1').style.display = "block";
 }
+function changefontweight1(e) {
+  var font = 'fontblod' + e;
+  document.getElementById(font).style.fontWeight = '100';
+  document.getElementById(font).style.color = '#2D2E7E';
+}
