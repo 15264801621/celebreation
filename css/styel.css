@@ -414,7 +414,7 @@ a {
     /* max-width: 257px; */
     /* max-width: 1440px;
     max-height: 100%; */
-    width: 1440px;
+    width: 100%;
     font-family: HYYOUYU;
     color: #2D2E7E;
     position: relative;
@@ -437,4 +437,13 @@ a {
     transform: rotate(-45deg);
     border-radius: 0 0 20px 0;
 }
-
+@media screen and (max-width:1260px) {
+    .message-bubble {
+        font-size: 13px;
+         }
+}
+@media screen and (max-width:905px) {
+    .message-bubble {
+        font-size: 10px;
+         }
+}
